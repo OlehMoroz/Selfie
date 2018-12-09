@@ -49,123 +49,17 @@ button:hover {
     margin: 0;
 }
 
-.m-info-slider {
-    width: 95%;
-    height: 79vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.slide-hidden {
-    display: none;
-}
-.m-info-slider__item {
-    height: 95%;
-    z-index: 3;
-}
-
-.m-info-slider__title {
-    font-size: 52px;
-    font-weight: bold;
-    color: #262626;
-    margin-top: 17px;
-    margin-bottom: 30px;
-    z-index: 3;
-}
-
-.m-info-slider__image {
-    width: 840px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-}
-
-.m-info-slider__info {
-    width: 21%;
-}
-
-.m-info-slider__info_text {
-    height: 57%;
-    font-size: 16px;
-    color: #262626;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.m-info-slider__text_item {
-    display: flex;
-}
-
-.m-info-slider__text_item > span {
-    width: 120px;
-}
-
-.m-info-slider__buttons {
+.preloader {
     width: 100%;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-.slider__button {
-    background: none;
-    width: 80px;
-    height: 45px;
-    border: none;
-    margin: 0;
-    padding: 0;
-    color: #262626;
-    font-size: 14px;
-}
-
-.slider__button > i {
-    font-size: 24px;
-}
-
-.slider__image {
-    width: 400px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.slider__image-1 {
-    background: url("../assets/images/Group\ 15@2x.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.slider__image-2 {
-    background: url("../assets/images/Group\ 1@2x.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.slide_nav {
-    width: 11%;
-}
-
-.slide_nav {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.slide_nav__n-order {
-    margin: 0 auto;
-    font-size: 30px;
-    color: #262626;
-}
-
-.slide_nav__n-order-active {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.n-order__button {
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    z-index: 999;
+}
+
+.logo_preloder-black {
+    opacity: 1 !important;
+    color: #262626 !important;
 }
