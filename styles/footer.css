@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer__btn {
+    font-size: 14px;
+    color: #5a5a5a;
+    width: 144px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+}
+
+.footer__btn:hover {
+    font-weight: 700;
+    transition: 1s;
+    cursor: pointer;
+}

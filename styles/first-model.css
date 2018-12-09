@@ -1,0 +1,57 @@
+.container__width {
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container__half_black {
+    background-color: #262626;
+}
+
+.header__logo_big {
+    margin: 0 auto;
+}
+
+.header__logo_white {
+    color: #F9FAFC;
+}
+
+.logo_big-text {
+    font-size: 120px;
+}
+
+.logo_small-text {
+    font-size: 16px;
+    margin-left: 140px;
+}
+
+.school__button {
+    width: 230px;
+    height: 56px;
+    border: none;
+    color: #262626;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: #F9FAFC;
+    text-align: center;
+    outline: none;
+}
+
+.school__button:hover {
+    cursor: pointer;
+}
+
+.school__button_black {
+    background-color: #262626;
+    color: #F9FAFC;
+}

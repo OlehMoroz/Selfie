@@ -1,0 +1,115 @@
+.container {
+    width: 1302px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container__row {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__item {
+    width: 250px;
+    height: 400px;
+}
+
+.container__item_model-2 {
+    background: url("../assets/images/model2@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-3 {
+    background: url("../assets/images/model3@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-4 {
+    background: url("../assets/images/model4@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-5 {
+    background: url("../assets/images/model5@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-6 {
+    background: url("../assets/images/model6@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-7 {
+    background: url("../assets/images/model7@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-8 {
+    background: url("../assets/images/model8@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-9 {
+    background: url("../assets/images/model9@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-10 {
+    background: url("../assets/images/model10@2x.png");
+    background-size: cover;
+}
+
+.container__item_model-11 {
+    background: url("../assets/images/model11@2x.png");
+    background-size: cover;
+}
+
+.container__item_hover {
+    background-color: #262626;
+    opacity: 0;
+}
+
+.container__item_hover:hover {
+    transition: 2s;
+    opacity: 0.9;
+}
+
+.container__info {
+    width: 180px;
+    height: 374px;
+    color: #F9FAFC;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.model_name {
+    margin-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container__info_item {
+    margin-bottom: 9px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container__info_item > i {
+    margin-right: 5px;
+}
+
+.container__info_button {
+    height: 19px;
+    color: #F9FAFC;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: none;
+    text-align: left;
+}

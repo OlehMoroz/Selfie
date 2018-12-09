@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" 
+          http-equiv="X-UA-Compatible" content="ie=edge">
+          <link href="../styles/styles.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+          <title>Selfie</title>
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <div class="header__logo">
+                <a href="../index.html">
+                    <div class="header__logo_big-text">Selfie</div>
+                    <div class="header__logo_small-text">Models group</div>
+                </a>
+            </div>
+            <div class="header__nav">
+                <div class="header__nav_item"><a href="../index.html">Models</a></div>
+                <div class="header__nav_item header__nav_item-big"><a href="../pages/become-models.html">Become a model</a></div>
+                <div class="header__nav_item header__nav_item-big header__nav_item-active"><a href="../pages/models-school.html">Models School</a></div>
+                <div class="header__nav_item"><a href="../pages/contacts.html">Contacts</a></div>
+            </div>
+            <div class="header__lang">
+                <a class="header__lang_item header__nav_item-active" href="#">En</a>
+                <div class="header__lang_line"></div>
+                <a class="header__lang_item" href="#">Ua</a>
+            </div>
+            <div class="header__contact">
+                <div class="header__contact_item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="contact_num">098 257 68 84</span>
+                    <span>Selfie</span>
+                </div>
+                <div class="header__contact_item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="contact_num contact_num-junior">067 814 44 56</span>
+                    <span>Junior</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container__width">
+        <div class="container__half container__half_black">
+            <div class="header__logo  header__logo_big header__logo_white">
+                <div class="header__logo_big-text header__logo_white logo_big-text">Selfie</div>
+                <div class="header__logo_small-text logo_small-text">Models group</div>
+            </div>
+            <button class="school__button" id="school__button_white" href="#">View info</button>
+        </div>
+        <div class="container__half">
+            <div class="header__logo header__logo_big">
+                <div class="header__logo_big-text logo_big-text">Junior</div>
+                <div class="header__logo_small-text logo_small-text">Models group</div>
+            </div>
+            <button class="school__button school__button_black" id="school__button_black">View info</button>
+        </div>
+    </div>
+
+    <div class="main-container main-container_selfie page-hidden"> <!-- Open page model scholl info program Selfie model-->
+        <div class="main-container__item">
+            <div class="main-container__info">
+                <button class="footer__btn btn__back" id="btn_back">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                    <span>Back</span>
+                </button>
+                <div class="main-container__info_item">
+                    <div class="c-container__title main-container__title">Selfie models School</div>
+                    <div class="c-container__text main-container__title">We always on the lookout for new faces
+                        to our school models. We invite everyone 
+                        aged 13 to 19 years for education
+                    </div>
+                    <div class="main-container__price">
+                        <div  class="main-container__price-text">
+                            Price for the whole course
+                        </div>
+                        <div class="main-container__price_value">
+                            <div class="c-container__title main-container__title">5 500</div>
+                            <div class="main-container__price_currency">uah</div>
+                        </div>
+                        <div class="main-container__price-text">
+                            Classes take place within 4 months
+                        </div>
+                    </div>
+                    <a href="become-models.html" class="info-school__btn">
+                        Enroll in a model school
+                    </a>
+                </div>
+            </div>
+            <div class="main-container__baner main-container__baner_selfie-model">
+            </div>
+        </div>
+        <div class="main-container__m-program">
+            <div class="m-program m-program_black">
+                <div class="m-program__item">
+                    <div class="c-container__title">
+                        Model School Program
+                    </div>
+                    <div class="c-container__text m-program__text">Our program for models consists of 31 classes,
+                        among them:
+                    </div>
+                    <div class="m-program__list">
+                        <ul>
+                            <li>One lesson in the theory of photo-class and 5 photos</li>
+                            <li>2 lessons of style (theory and practice, where you will find
+                                a stylish look from your own wardrobe, to each photo shoot)</li>
+                            <li>8 lessons from the catwalk and posing</li>
+                            <li>6 lessons of acting skills</li>
+                            <li>One lesson on restaurant etiquette + lunch in a restaurant</li>
+                            <li>2 lessons in nutrition</li>
+                            <li>One lesson of visage</li>
+                            <li>One lesson of cosmetology</li>
+                            <li>One lesson on modeling theory</li>
+                            <li>One meeting with the model</li>
+                            <li>One lesson on diction</li>
+                            <li>One English lesson (dictionary of terms)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="m-program__schedule">
+                <div class="schedule__item">
+                    <div class="c-container__title main-container__title">Schedule classes</div>
+                    <div class="c-container__text c-container__text_black">Our classes last 2 hours, twice a week:</div>
+                    <div class="schedule__text">
+                        <div class="schedule__text_item">
+                            <i class="far fa-clock"></i>
+                            <span>Wednesday from 18:00 to 20:00</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="far fa-clock"></i>
+                            <span>Saturday from 16:00 to 18:00</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ternopil, Heroes EuroMaidan Square 6, 3rd floor</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="fas fa-phone"></i>
+                            <span>Call us 098 257 68 84</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule__item schedule__item_no-border">
+                    <div class="c-container__title main-container__title main-container__title_long">Additional Information</div>
+                    <div class="schedule__text_item">
+                        Payment can be divided into 2-3 parts. The first in completing
+                        the contract, the second to the first session, the third
+                        in a month from the start of training
+                    </div>
+                    <div class="schedule__text_item">
+                        At the end of the training, an exam is expected, the success
+                        of which depends on the receipt of a certificate of education.
+                        Students receive the final portfolio on disk on the day
+                        of the exam
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-program__teacher">
+            <div class="c-container__title main-container__title main-container__title_teacher">Model school teachers</div>
+            <div class="container__row teacher__row">
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-1">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title teacher__info_title-long">Anastasia Sheremeta</div>
+                            <div class="teacher__info_text">Founder and director of model
+                                school and model agencies
+                            </div>
+                            <div class="teacher__info_text">Disciplines: modeling theory,
+                                English language
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-2">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title">Svetlana Matviishi</div>
+                            <div class="teacher__info_text">Assistant to the chair of scenic art
+                                of TNPU. Teacher of stage speech,
+                                teacher of acting and diction
+                                school models. Education - higher
+                                diploma drama and film actress.
+                                Teaching experience 6 years
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__row teacher__row">
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-3">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title">Galina Savkiv</div>
+                            <div class="teacher__info_text">Specialist in restaurant business, coach.
+                                Subjects: restaurant etiquette,
+                                teambuilding, restaurant service, the art
+                                of sales. Education: teacher. Specialty
+                                foreign literature and English language.
+                                Teaching experience 3 years.
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-4">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title teacher__info_title-long">Ivana Kiba</div>
+                            <div class="teacher__info_text">Model, teacher of drapery and posing
+                                in school models. Student of TNEU.
+                                Education: hotel and restaurant business
+                                and tourism.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <footer>
+            <button class="footer__btn">
+                <i class="fas fa-long-arrow-alt-down"></i>
+                <span>Show more models</span>
+            </button>
+        </footer>
+
+    </div> <!-- Open page model scholl info program Selfie model-->
+
+    <div class="main-container main-container_junior page-hidden"> <!-- Open page model scholl info program Junior model-->
+        <div class="main-container__item">
+            <div class="main-container__info">
+                <button class="footer__btn btn__back" id="btn_back-junior">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                    <span>Back</span>
+                </button>
+                <div class="main-container__info_item">
+                    <div class="c-container__title main-container__title">Junior models School</div>
+                    <div class="c-container__text main-container__title">We always on the lookout for new faces to our junior
+                        models school.
+                    </div>
+                    <div class="c-container__text main-container__title main-container__title_text">Our program is divided into Mini Models, which
+                        contains 3 stages and Junior, also 3 age stages.
+                    </div>
+                    <a href="become-models.html" class="info-school__btn info-school__btn_junior">
+                        Enroll in a model school
+                    </a>
+                </div>
+            </div>
+            <div class="main-container__baner main-container__baner_junior-model">
+            </div>
+        </div>
+
+        <div class="main-container__m-program page-hidden" id="mini_models_program"> <!--Open Mini Model program hiden/visible -->
+            <div class="m-program m-program_black">
+                <div class="m-program__item">
+                    <div class="m-program__item_junior-title-btn">
+                        <div class="c-container__title">
+                            Mini models
+                        </div>
+                        <button class="footer__btn btn__back btn__junior" id="back_junior-models">
+                            <span>Junior program</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                    <div class="c-container__text m-program__text_junior">Program for children 4-6 years. Сonsists of:</div>
+                    <div class="m-program__list m-program__list_junior">
+                        <ul>
+                            <li>5 professional photography (with makeup and hairdressing)</li>
+                            <li>5 professional photography (with makeup and hairdressing)</li>
+                            <li>1 lesson on style basics (our stylist will help you
+                                pick clothes for photography)</li>
+                            <li>1 show</li>
+                            <li>Rehearsal for the show</li>
+                        </ul>
+                    </div>
+                    <div class="m-program__list m-program__list_junior">
+                        <ul>
+                            <li>4 professional photography (with makeup and hairstyle)</li>
+                            <li>6 lessons on catwalk</li>
+                            <li>3 lessons on photoposition</li>
+                            <li>1 lesson on restaurant etiquette</li>
+                        </ul>
+                    </div>
+                    <div class="m-program__list m-program__list_junior">
+                        <ul>
+                            <li>4 professional photography (with makeup and hairstyle)</li>
+                            <li>5 lessons on the show + photo competition</li>
+                            <li>1 video recording and show</li>
+                            <li>Rehearsal for the show</li>
+                            <li>Master class for decorating pastries</li>
+                        </ul>
+                    </div>
+                    <div class="main-container__price main-container__price_junior">
+                        <div  class="main-container__price-text">
+                            Price for the whole course
+                        </div>
+                        <div class="main-container__price_value">
+                            <div class="c-container__title main-container__price_junior">5 200</div>
+                            <div class="main-container__price_currency">uah</div>
+                        </div>
+                        <div class="main-container__price-text">
+                            Classes take place within 3 months
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-program__schedule m-program__schedule_junior">
+                <div class="schedule__item schedule__item_junior">
+                    <div class="c-container__title main-container__title">Schedule classes</div>
+                    <div class="c-container__text c-container__text_black">Classes every Tuesday, Wednesday, Thursday at 18:00
+                            (If the photographer, the class lasts 1.5 hours,
+                            defile - 1 hour)</div>
+                    <div class="schedule__text">
+                        <div class="schedule__text_item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ternopil, Heroes EuroMaidan Square 6, 3rd floor</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="fas fa-phone"></i>
+                            <span>Call us 067 814 44 56</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule__item schedule__item_no-border">
+                    <div class="c-container__title main-container__title main-container__title_long">Additional Information</div>
+                    <div class="schedule__text_item">
+                        Payment can be divided into 2-3 parts. The first in completing
+                        the contract, the second to the first session, the third
+                        in a month from the start of training
+                    </div>
+                    <div class="schedule__text_item">
+                        At the end of the training, an exam is expected, the success
+                        of which depends on the receipt of a certificate of education.
+                        Students receive the final portfolio on disk on the day
+                        of the exam
+                    </div>
+                    <div class="schedule__text_item">
+                        Each child will receive: sweets after each lesson, corporate
+                        notebook, T-shirt, skirt, shirt / dress.
+                    </div>
+                    <div class="schedule__text_item">
+                        Upon graduation, everyone is waiting for graduation:
+                        party with exemplary fashion show children and taste
+                        of festive cake.
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Close Mini Model program hiden/visible -->
+
+        <div class="main-container__m-program" id="junior_models_program"> <!-- Open Junior program hiden/visible -->
+            <div class="m-program m-program_black">
+                <div class="m-program__item">
+                    <div class="m-program__item_junior-title-btn">
+                        <div class="c-container__title">
+                            Junior models
+                        </div>
+                        <button class="footer__btn btn__back btn__junior" id="back_mini-models">
+                            <span>Mini Models Program</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                    <div class="c-container__text m-program__text_junior">Program for children 6-13 years. Сonsists of:</div>
+                    <div class="m-program__list m-program__list_junior">
+                        <ul>
+                            <li>9 lessons from acting art</li>
+                            <li>9 lessons in catwalk and posing</li>
+                            <li>2 lessons on psychological exercises</li>
+                            <li>2 lessons on etiquette</li>
+                            <li>1 lesson on food culture</li>
+                            <li>2 lessons in diction</li>
+                            <li>2 lessons on the business name</li>
+                            <li>2 lessons in style (our stylist will pick up clothes
+                                for photography)</li>
+                            <li>1 lesson on restaurant etiquette</li>
+                            <li>3 yoga classes</li>
+                            <li>4 classes in the photo class (with makeup and hairstyle)</li>
+                        </ul>
+                    </div>
+                    <div class="main-container__price main-container__price_junior">
+                        <div  class="main-container__price-text">
+                            Price for the whole course
+                        </div>
+                        <div class="main-container__price_value">
+                            <div class="c-container__title main-container__price_junior">6 300</div>
+                            <div class="main-container__price_currency">uah</div>
+                        </div>
+                        <div class="main-container__price-text">
+                            Classes take place within 5 months
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-program__schedule m-program__schedule_junior schedule__item_junior-n-padding">
+                <div class="schedule__item schedule__item_junior-n-padding">
+                    <div class="c-container__title main-container__title">Schedule classes</div>
+                    <div class="c-container__text c-container__text_black">Classes every:</div>
+                    <div class="schedule__text">
+                        <div class="schedule__text_item">
+                            <i class="far fa-clock"></i>
+                            <span>Monday 18:00 - 19:00, Friday 18:00 - 19:00 | 6-8 years</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="far fa-clock"></i>
+                            <span>Tuesday 16:00 - 17:00, Thursday 16:00 - 17:00 | 9-10 years</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="far fa-clock"></i>
+                            <span>Tuesday 17:00 - 18:00, Thursday 17:00 - 18:00 | 11-13 years</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ternopil, Heroes EuroMaidan Square 6, 3rd floor</span>
+                        </div>
+                        <div class="schedule__text_item">
+                            <i class="fas fa-phone"></i>
+                            <span>Call us 067 814 44 56</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule__item schedule__item_no-border">
+                    <div class="c-container__title main-container__title main-container__title_long">Additional Information</div>
+                    <div class="schedule__text_item">
+                        Payment can be divided into 2-3 parts. The first in completing
+                        the contract, the second to the first session, the third
+                        in a month from the start of training
+                    </div>
+                    <div class="schedule__text_item">
+                        At the end of the training, an exam is expected, the success
+                        of which depends on the receipt of a certificate of education.
+                        Students receive the final portfolio on disk on the day
+                        of the exam
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Close Junior program hiden/visible -->
+
+        <div class="m-program__teacher"> <!-- Open program Teacher for models-->
+            <div class="c-container__title main-container__title main-container__title_teacher">Model school teachers</div>
+            <div class="container__row teacher__row">
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-1">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title">Tetyana Gudz</div>
+                            <div class="teacher__info_text">Co-founder and director of school models.
+                                Subjects: ABC business etiquette,
+                                food culture. Education: financier, lawyer.
+                                Teaching experience 2 years.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-2">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title">Margarita Vasilishin</div>
+                            <div class="teacher__info_text">Actress, teacher of the department
+                                of theatrical art of TNPU.
+                                Disciplines: acting and diction
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__row teacher__row">
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-3">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title">Kireia Maria</div>
+                            <div class="teacher__info_text">Assistant Department of Theater Arts 
+                                of TNPU, a graduate student NAKKKiM.
+                                Education: theater and cinema artist.
+                                Teaching experience: 1,5 years.
+                                Discipline: acting skills and diction
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teacher__item">
+                    <div class="teacher__item teacher__item_teacer-4">
+                        <div class="teacher__info">
+                            <div class="teacher__info_title teacher__info_title-long">Ivana Kiba</div>
+                            <div class="teacher__info_text">Model, teacher of drapery and posing
+                                in school models. Student of TNEU.
+                                Education: hotel and restaurant business
+                                and tourism.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Close program Teacher for models-->
+
+        <footer>
+            <button class="footer__btn">
+                <i class="fas fa-long-arrow-alt-down"></i>
+                <span>Show more models</span>
+            </button>
+        </footer>
+
+    </div> <!-- Open page model scholl info program Selfie model-->
+
+    <script src="../script/hidden-school.js"></script>
+</body>
+</html>

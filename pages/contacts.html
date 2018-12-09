@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" 
+        http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../styles/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEaki6dK0AZRX_GYC0aK7Mi46bDJMqvLs"></script>
+        <title>Selfie</title>
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <div class="header__logo">
+                <a href="../index.html">
+                    <div class="header__logo_big-text">Selfie</div>
+                    <div class="header__logo_small-text">Models group</div>
+                </a>
+            </div>
+            <div class="header__nav">
+                <div class="header__nav_item"><a href="../index.html">Models</a></div>
+                <div class="header__nav_item header__nav_item-big"><a href="../pages/become-models.html">Become a model</a></div>
+                <div class="header__nav_item header__nav_item-big"><a href="../pages/models-school.html">Models School</a></div>
+                <div class="header__nav_item header__nav_item-active"><a href="../pages/contacts.html">Contacts</a></div>
+            </div>
+            <div class="header__lang">
+                <a class="header__lang_item header__nav_item-active" href="#">En</a>
+                <div class="header__lang_line"></div>
+                <a class="header__lang_item" href="#">Ua</a>
+            </div>
+            <div class="header__contact">
+                <div class="header__contact_item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="contact_num">098 257 68 84</span>
+                    <span>Selfie</span>
+                </div>
+                <div class="header__contact_item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="contact_num contact_num-junior">067 814 44 56</span>
+                    <span>Junior</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="map__wrapper">
+        <div id="map" class="map">
+        </div>
+        <div class="map__info">
+            <div class="map__info_title">Contact info</div>
+            <div class="map__info_item">
+                <div class="map__info_component">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="map__info_component-info">Ternopil, Heroes EuroMaidan Square 6, 3rd floor</div>
+                </div>
+                <div class="map__info_component">
+                    <i class="far fa-clock"></i>
+                    <div class="map__info_component-info">Our working hours: Mon-Fri 8 am till 5 pm</div>
+                </div>
+                <div class="map__info_component">
+                    <i class="far fa-envelope"></i>
+                    <div class="map__info_component-info">
+                            @selfiemodelsgroup
+                            @selfiemodelsschool 
+                            @juniormodelsschool
+                    </div>
+                </div>
+                <div class="map__info_component">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="map__info_component-info">
+                        Selfie Models Group
+                        Junior Models School
+                    </div>
+                </div>
+            </div>
+            <div class="map__info_creator map__info_component">Made with <i class="far fa-copyright"></i> by Online Media</div>
+        </div>
+    </div>
+    <script src="../script/map.js"></script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+.main-container__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-container__baner {
+    width: 50%;
+    height: 630px;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.main-container__baner_selfie-model {
+    background: url("../assets/images/img@2x.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.main-container__baner_junior-model {
+    background: url("../assets/images/img-junior@2x.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.main-container__title_text {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+
+.main-container__info {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 50px;
+}
+
+.btn__back {
+    width: 130px;
+    height: 19px;
+    background: none;
+    text-align: left;
+}
+
+.btn__junior {
+   width: 195px;
+   height: 21px;
+   text-align: center;
+   color: #F9FAFC;
+   margin-top: 75px; 
+}
+
+.main-container__info_item {
+    padding-top: 75px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container__title {
+    color: #262626 !important;
+}
+
+.m-program__item_junior-title-btn {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container__price {
+    margin: 40px 0;
+}
+
+.main-container__price_junior {
+    color: #F9FAFC;
+}
+
+.main-container__price_value {
+    margin-top: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-container__price_currency {
+    font-size: 24px;
+    margin: 30px 10px;
+    text-transform: uppercase;
+}
+
+.main-container__price-text {
+    font-size: 14px;
+}
+
+.info-school__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 300px;
+    height: 60px;
+    background: none;
+    border: 1px solid #262626;
+}
+
+.info-school__btn_junior {
+    margin-bottom: 20px;
+}
+
+.main-container__m-program {
+    padding-left: 120px;
+    position: relative;
+}
+
+.m-program {
+    width: 58%;
+    background-color: #262626;
+    z-index: 1;
+}
+
+.m-program_black {
+    padding-bottom: 65px;
+}
+
+.m-program__item {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.m-program__text {
+    margin-top: 30px;
+}
+
+.m-program__text_junior {
+    margin-top: 10px;
+}
+
+
+
+.m-program__list {
+    padding-left: 20px;
+    color: #F9FAFC;
+}
+
+.m-program__list_junior {
+    margin-bottom: 35px;
+}
+
+.m-program__list > ul > li {
+    margin-top: 32px;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.m-program__schedule {
+    width: 43%;
+    top: 117px;
+    right: 40px;
+    position: absolute;
+    background-color: #F3F3F3;
+    z-index: 2;
+}
+
+.m-program__schedule_junior {
+    top: 220px;
+    padding-bottom: 40px;
+}
+
+.schedule__item {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 80%;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.schedule__item_junior-n-padding {
+    padding-bottom: 0 !important;
+}
+
+.c-container__text_black {
+    color: #262626;
+}
+
+.schedule__text {
+    margin: 30px 0 30px;
+    padding-left: 20px;
+}
+
+.schedule__text_item {
+    font-size: 14px;
+    margin: 15px 0 15px;
+    line-height: 2;
+    width: 94%;
+}
+
+.schedule__text_item > span {
+    margin-left: 15px;
+}
+
+.main-container__title_long {
+    font-size: 52px !important;
+    white-space: pre !important;
+}
+
+.schedule__item_no-border {
+    border: none;
+}
+
+.m-program__teacher {
+    margin: 60px auto 0;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container__title_teacher {
+    margin-left: 35px;
+}
+
+.teacher__row {
+    margin: 0 auto;
+    width: 93%;
+    margin-bottom: 110px; 
+}
+
+.teacher__item {
+    width: 45%;
+    position: relative;
+}
+
+.teacher__item_teacer-1 {
+    width: 415px;
+    height: 415px;
+    background: url("../assets/images/model2-teacher1@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher__item_teacer-2 {
+    width: 415px;
+    height: 415px;
+    background: url("../assets/images/model2-teacher2@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher__item_teacer-3 {
+    width: 415px;
+    height: 415px;
+    background: url("../assets/images/model2-teacher3@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher__item_teacer-4 {
+    width: 415px;
+    height: 415px;
+    background: url("../assets/images/model2-teacher4@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher__info {
+    width: 270px;
+    background-color: #262626;
+    color: #F9FAFC;
+    padding: 35px 0 35px 20px;
+    left: 200px;
+    top: 280px;
+    position: absolute;
+}
+
+.teacher__info_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    white-space: pre;
+}
+
+.teacher__info_title-long {
+    font-size: 26px;
+}
+
+.teacher__info_text {
+    margin-top: 20px;
+    font-size: 12px;
+    white-space: pre-line;
+}

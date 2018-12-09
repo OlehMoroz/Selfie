@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" 
+          http-equiv="X-UA-Compatible" content="ie=edge">
+          <link href="styles/styles.css" rel="stylesheet">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+          <title>Selfie</title>
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <div class="header__logo">
+                <a href="index.html">
+                    <div class="header__logo_big-text">Selfie</div>
+                    <div class="header__logo_small-text">Models group</div>
+                </a>
+            </div>
+            <div class="header__nav">
+                <div class="header__nav_item header__nav_item-active"><a href="./index.html">Models</a></div>
+                <div class="header__nav_item header__nav_item-big"><a href="./pages/become-models.html">Become a model</a></div>
+                <div class="header__nav_item header__nav_item-big"><a href="./pages/models-school.html">Models School</a></div>
+                <div class="header__nav_item"><a href="./pages/contacts.html">Contacts</a></div>
+            </div>
+            <div class="header__lang">
+                <a class="header__lang_item header__nav_item-active" href="#">En</a>
+                <div class="header__lang_line"></div>
+                <a class="header__lang_item" href="#">Ua</a>
+            </div>
+            <div class="header__contact">
+                <div class="header__contact_item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="contact_num">098 257 68 84</span>
+                    <span>Selfie</span>
+                </div>
+                <div class="header__contact_item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span class="contact_num contact_num-junior">067 814 44 56</span>
+                    <span>Junior</span>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- Open model slider -->
+    <div class="m-info-slider slide-hidden"> <!-- Open model slider -->
+        <div class="m-info-slider__item m-info-slider__info">
+            <div class="m-info-slider__title">Adriana Chlebowski</div>
+            <div class="m-info-slider__info_text">
+                <div class="m-info-slider__text_item">
+                    <span>length:</span>
+                    <span>179</span>
+                </div>
+                <div class="m-info-slider__text_item">
+                    <span>bust:</span>
+                    <span>83</span>
+                </div>
+                <div class="m-info-slider__text_item">
+                    <span>waist:</span>
+                    <span>60</span>
+                </div>
+                <div class="m-info-slider__text_item">
+                    <span>hips:</span>
+                    <span>88</span>
+                </div>
+                <div class="m-info-slider__text_item">
+                    <span>eye:</span>
+                    <span>Green</span>
+                </div>
+                <div class="m-info-slider__text_item">
+                    <span>hair:</span>
+                    <span>Brown</span>
+                </div>
+                <div class="m-info-slider__text_item">
+                    <span>shoe:</span>
+                    <span>39</span>
+                </div>
+                <div>
+                    <i class="fas fa-map-marked-alt"></i>
+                    <span>Pennsylvania</span>
+                </div>
+            </div>
+            <div class="m-info-slider__buttons">
+                <button class="slider__button">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                    <div>Prev Model</div>
+                </button>
+                <button class="slider__button">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    <div>Next Model</div>
+                </button>
+            </div>
+        </div>
+        <div class="m-info-slider__item m-info-slider__image">
+            <div class="slider__image slider__image-1">
+            </div>
+            <div class="slider__image slider__image-2">
+            </div>
+        </div>
+        <div class="m-info-slider__item slide_nav">
+            <div class="slide_nav__n-order">
+                <span class="slide_nav__n-order-active">
+                    01
+                </span>
+                <span>
+                     /       
+                </span>
+                <span>
+                    20       
+                </span>
+            </div>
+            <div class="m-info-slider__buttons n-order__button">
+                <button class="slider__button">
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                    <div>Prev Model</div>
+                </button>
+                <button class="slider__button">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    <div>Next Model</div>
+                </button>
+            </div>
+        </div>
+    </div> <!-- Close model slider -->
+
+    <div class="container">
+        <div class="container__row">
+            <div class="container__item container__item_model-2">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-3">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-4">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-5">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-10">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__row">
+            <div class="container__item container__item_model-6">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-7">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-8">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-9">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-11">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__row">
+            <div class="container__item container__item_model-2">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-3">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-4">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-5">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__item container__item_model-10">
+                <div class="container__item container__item_hover">
+                    <div class="container__info">
+                        <div class="model_name">Adriana Chlebowski</div>
+                        <div>
+                            <div class="container__info_item model_lenght">Leght: 179</div>
+                            <div class="container__info_item model_bust">Bust: 83</div>
+                            <div class="container__info_item model_waist">Waist: 60</div>
+                            <div class="container__info_item model_hips">Hips: 88</div>
+                            <div class="container__info_item model_eye">Eye: green</div>
+                            <div class="container__info_item model_hair">Hair: brown</div>
+                            <div class="container__info_item model_shoe">Shoe: 39</div>
+                        </div>
+                        <div class="container__info_item"><i class="fas fa-map-marker-alt"></i>Pennsilvsnia</div>
+                        <button class="container__info_button">
+                            <span>Model info</span>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button class="footer__btn">
+                <i class="fas fa-long-arrow-alt-down"></i>
+                <span>Show more models</span>
+            </button>
+        </footer>
+    </div>
+
+    <script src="./script/hidden-slider.js"></script>
+</body>
+</html>
